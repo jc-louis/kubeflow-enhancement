@@ -8,8 +8,8 @@
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=kubeflow.org
 // @grant        none
 // @run-at       document-start
-// @updateURL    https://raw.githubusercontent.com/jc-louis/kubeflow-enhancement/refs/heads/master/tampermonkey.js
-// @downloadURL  https://raw.githubusercontent.com/jc-louis/kubeflow-enhancement/refs/heads/master/tampermonkey.js
+// @updateURL    https://cdn.jsdelivr.net/gh/jc-louis/kubeflow-enhancement@master/tampermonkey.js
+// @downloadURL  https://cdn.jsdelivr.net/gh/jc-louis/kubeflow-enhancement@master/tampermonkey.js
 // ==/UserScript==
 
 (function() {
