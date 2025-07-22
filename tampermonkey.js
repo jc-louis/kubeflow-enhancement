@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Kubeflow Enhancement
 // @namespace    http://tampermonkey.net/
-// @version      1.3
+// @version      1.4
 // @description  Enhance Kubeflow
 // @author       jc-louis
 // @match        https://kubeflow-v2.private.lifen.fr/*
@@ -15,7 +15,7 @@
 (function() {
     'use strict';
 
-    console.log("Kubeflow Enhancement script v1.3 loaded");
+    console.log("Kubeflow Enhancement script v1.4 loaded");
 
     function findAndReplaceInput() {
         const inputs = document.querySelectorAll('input[type="text"], input[type="email"], input:not([type])');
