@@ -1,19 +1,21 @@
 // ==UserScript==
 // @name         Kubeflow Enhancement
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  Enhance Kubeflow
 // @author       You
 // @match        https://kubeflow-v2.private.lifen.fr/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=kubeflow.org
 // @grant        none
 // @run-at       document-start
+// @updateURL    https://raw.githubusercontent.com/jc-louis/kubeflow-enhancement/refs/heads/master/tampermonkey.js
+// @downloadURL  https://raw.githubusercontent.com/jc-louis/kubeflow-enhancement/refs/heads/master/tampermonkey.js
 // ==/UserScript==
 
 (function() {
     'use strict';
 
-    console.log("Kubeflow Enhancement script v1 loaded");
+    console.log("Kubeflow Enhancement script v1.1 loaded");
 
     function getCookie(name) {
         const value = `; ${document.cookie}`;
