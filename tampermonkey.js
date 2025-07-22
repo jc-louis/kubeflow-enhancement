@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name         Kubeflow Enhancement
 // @namespace    http://tampermonkey.net/
-// @version      1.2
+// @version      1.3
 // @description  Enhance Kubeflow
-// @author       You
+// @author       jc-louis
+// @source       https://github.com/jc-louis/kubeflow-enhancement
 // @match        https://kubeflow-v2.private.lifen.fr/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=kubeflow.org
 // @grant        none
@@ -15,7 +16,7 @@
 (function() {
     'use strict';
 
-    console.log("Kubeflow Enhancement script v1.2 loaded");
+    console.log("Kubeflow Enhancement script v1.3 loaded");
 
     function getCookie(name) {
         const value = `; ${document.cookie}`;
